@@ -1,0 +1,11 @@
+.App-station-list,
+.App-line-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.App-station-list li,
+.App-line-list li {
+    display: inline-block;
+}

@@ -13,8 +13,6 @@ function App() {
   const count = useAlarm(60 * 1000);
 
   React.useEffect(() => {
-    setNextTrains([]);
-
     if (!line || !station) {
       return;
     }
@@ -43,22 +41,27 @@ function App() {
   }, [ line, station, count ]);
 
   function safeSetLine (line) {
-    setStation("");
+    safeSetStation("");
     setLine(line);
+  }
+
+  function safeSetStation (station) {
+    setStation(station);
+    setNextTrains([]);
   }
 
   return (
     <div className="App">
-      <ul>
+      <ul className="App-line-list">
         {
           liveLines.map(l => <li key={l}><button onClick={() => safeSetLine(l)}>{findLine(l).name}</button></li>)
         }
       </ul>
       <div>
         <h2>{findLine(line).name}</h2>
-        <ul>
+        <ul className="App-station-list">
         {
-          getStationsOnLine(line).map(s => <li key={s.id}><button onClick={() => setStation(s.code)}>{s.name}</button></li>)
+          getStationsOnLine(line).map(s => <li key={s.id}><button onClick={() => safeSetStation(s.code)}>{s.name}</button></li>)
         }
         </ul>
       </div>

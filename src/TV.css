@@ -1,0 +1,14 @@
+.TV-screen {
+    height: 300px;
+    width: 400px;
+    padding: 50px;
+    background: #333;
+    border: 5px solid #111;
+    overflow-y: auto;
+    margin: 1em;
+}
+
+.TV-screen ul {
+    background: white;
+    min-height: 300px;
+}
