@@ -5,7 +5,7 @@ import TV from './TV';
 import { findLine, findStation, getStationsOnLine } from './util';
 import StationPicker from './StationPicker';
 import { useAlarm } from './hooks';
-import { getTrainsAtStation } from './api';
+import { getTrainsAtStation, getAllTrainsOnLine } from './api';
 
 const liveLines = [ "AEL", "TCL", "WRL", "TKL" ];
 
@@ -13,6 +13,7 @@ function App() {
   const [ line, setLine ] = React.useState("WRL");
   const [ station, setStation ] = React.useState("HUH");
   const [ nextTrains, setNextTrains ] = React.useState([]);
+  const [ allTrains, setAllTrains ] = React.useState([]);
   const count = useAlarm(60 * 1000);
 
   React.useEffect(() => {
@@ -22,6 +23,10 @@ function App() {
 
     getTrainsAtStation(line, station).then(setNextTrains);
   }, [ line, station, count ]);
+
+  React.useEffect(() => {
+    getAllTrainsOnLine(line).then(trains => setAllTrains(trains));
+  }, [line, count]);
 
   function safeSetLine (line) {
     safeSetStation("");
@@ -58,7 +63,7 @@ function App() {
       </ul>
       <div>
         <h2>{lineData.name}</h2>
-        <StationPicker line={lineData} stations={lineStations} setStation={safeSetStation} />
+        <StationPicker line={lineData} stations={lineStations} setStation={safeSetStation} trains={allTrains} />
       </div>
       { station &&
         <div>

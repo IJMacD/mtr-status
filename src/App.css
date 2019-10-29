@@ -26,7 +26,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 6px;
+    top: 16px;
     height: 6px;
 }
 
@@ -40,7 +40,7 @@
 
 .App-station {
     position: absolute;
-    top: 0;
+    top: 10px;
     left: 50%;
     width: 12px;
     height: 12px;
@@ -51,5 +51,17 @@
 }
 
 .App-stationName {
-    margin-top: 30px;
+    margin-top: 40px;
+}
+
+.StationPicker-train {
+    display: block;
+    height: 12px;
+    position: absolute;
+    top: 0;
+    left: 55%;
+}
+
+.StationPicker-train.StationPicker-direction-down {
+    transform: scale(-1, 1);
 }
