@@ -1,6 +1,10 @@
+const path = require('path');
+const fs = require('fs');
 const fetch = require("fetch-everywhere");
 const lines = require('../src/data/lines');
 const station_codes = require('../src/data/station_codes');
+
+const LINE_STATION_FILENAME = path.join(__dirname, "../src/data/line_stations.json");
 
 Promise.all([
     fetch("http://www.mtr.com.hk/st/data/fcdata_json.php"),
@@ -19,6 +23,8 @@ Promise.all([
 
     const idRegex = /myValue(\d+) = "(\d*)"/ig;
     const nameRegex = /caption(\d+) = "([a-z &-]*)"/ig;
+
+    const lineStations = {};
 
     let line, idMatch, nameMatch;
 
@@ -86,19 +92,23 @@ Promise.all([
                 const addedStation = stations.find(s => s.id === id);
                 const duplicateStation = stations.find(s => s.name === fs.name);
 
+                let station;
+
                 if (addedStation) {
                     addedStation.lines.push(...stationLines);
+                    station = addedStation;
                 } else if (duplicateStation) {
                     duplicateStation.altID = Math.max(duplicateStation.id, id);
                     duplicateStation.id = Math.min(duplicateStation.id, id);
                     duplicateStation.lines.push(...stationLines);
+                    station = duplicateStation;
                 } else {
-                    const station = {
+                    station = {
                         ...fs,
                         lines: stationLines,
                     };
 
-                    const code = findCode(station.name);
+                    const code = findCode(fs.name);
 
                     if (code) {
                         station.code = code;
@@ -106,9 +116,20 @@ Promise.all([
 
                     stations.push(station);
                 }
+
+                // Append to list of line-station mapping
+                for (const lineCode of stationLines) {
+                    if (!lineStations[lineCode]) {
+                        lineStations[lineCode] = [];
+                    }
+
+                    lineStations[lineCode].push(station.id);
+                }
             }
         }
     }
+
+    fs.writeFile(LINE_STATION_FILENAME, JSON.stringify(lineStations), e => e && console.log(e));
 
     // stations.sort((a,b) => a.name.localeCompare(b.name));
 
