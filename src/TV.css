@@ -18,6 +18,17 @@
     font-size: 1.6em;
 }
 
+.TV-clockHolder {
+    background: #111;
+    text-align: right;
+}
+
+.TV-clock {
+    background: #CC0;
+    font-size: 1.6em;
+    padding: 0 4px;
+}
+
 .TV-screen li {
     display: flex;
 }

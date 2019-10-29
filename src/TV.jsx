@@ -1,10 +1,14 @@
 import React from 'react';
 import { findStation, formatTime } from './util';
 import './TV.css';
+import { useAlarm } from './hooks';
 
-export default function TV ({ station, trains }) {
+function TV ({ trains }) {
+    useAlarm(10 * 1000);
+
     return (
         <div className="TV-screen">
+            <div className="TV-clockHolder"><span className="TV-clock">{formatTime(new Date())}</span></div>
             <ul>
             {
                 trains.map(t => (
@@ -19,3 +23,5 @@ export default function TV ({ station, trains }) {
         </div>
     );
 }
+
+export default React.memo(TV);
