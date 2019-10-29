@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import TV from './TV';
-import { formatTime, findLine, getStationsOnLine } from './util';
+import { formatTime, findLine, findStation, getStationsOnLine } from './util';
 
 const liveLines = [ "AEL", "TCL", "WRL", "TKL" ];
 
@@ -30,8 +30,8 @@ function App() {
       const downList = stationData.DOWN || [];
 
       const nextTrains = [
-        ...upList.map(mapTrain),
-        ...downList.map(mapTrain),
+        ...upList.map(mapTrain).map(t => (t.direction = "up",t)),
+        ...downList.map(mapTrain).map(t => (t.direction = "down",t)),
       ];
 
       nextTrains.sort((a,b) => a.time - b.time);
@@ -50,22 +50,51 @@ function App() {
     setNextTrains([]);
   }
 
+  const lineData = findLine(line);
+  const lineStations = getStationsOnLine(line);
+
   return (
     <div className="App">
       <ul className="App-line-list">
         {
-          liveLines.map(l => <li key={l}><button onClick={() => safeSetLine(l)}>{findLine(l).name}</button></li>)
+          liveLines.map(l => {
+            const line = findLine(l);
+            return (
+              <li key={l}>
+                <button
+                  onClick={() => safeSetLine(l)}
+                  className="App-lineButton"
+                  style={{ background: line.color, color: "white" }}
+                >
+                  {line.name}
+                </button>
+              </li>
+            )
+          })
         }
       </ul>
       <div>
-        <h2>{findLine(line).name}</h2>
+        <h2>{lineData.name}</h2>
         <ul className="App-station-list">
         {
-          getStationsOnLine(line).map(s => <li key={s.id}><button onClick={() => safeSetStation(s.code)}>{s.name}</button></li>)
+          lineStations.map((s,i) => (
+            <li key={s.id}>
+              <button className="App-stationButton" onClick={() => safeSetStation(s.code)}>
+                <div className={`App-line ${i===0?"App-lineStart":""} ${i===lineStations.length-1?"App-lineEnd":""}`} style={{ backgroundColor: lineData.color }} />
+                <div className="App-station" />
+                <div className="App-stationName">{s.name}</div>
+              </button>
+            </li>
+          ))
         }
         </ul>
       </div>
-      { station && <TV station={station} trains={nextTrains} /> }
+      { station &&
+        <div>
+          <h1>{findStation(station).name}</h1>
+          <TV station={station} trains={nextTrains} />
+        </div>
+      }
     </div>
   );
 }

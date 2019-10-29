@@ -31,5 +31,5 @@ export function findLine (code) {
  * @param {string} code
  */
 export function getStationsOnLine (code) {
-  return stations.filter(s => s.lines.includes(code));
+  return findLine(code).stations.map(findStation);
 }

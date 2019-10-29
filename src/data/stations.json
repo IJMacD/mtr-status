@@ -1,38 +1,54 @@
 [
     {
-        "id": 83,
-        "name": "Kennedy Town",
-        "nameZH": "堅尼地城",
+        "id": 2,
+        "code": "ADM",
+        "name": "Admiralty",
+        "nameZH": "金鐘",
         "lines": [
-            "ISL"
+            "ISL",
+            "TWL",
+            "SIL"
         ]
     },
     {
-        "id": 82,
-        "name": "HKU",
-        "nameZH": "香港大學",
+        "id": 47,
+        "code": "AIR",
+        "name": "Airport",
+        "nameZH": "機場",
         "lines": [
-            "ISL"
+            "AEL"
         ]
     },
     {
-        "id": 81,
-        "name": "Sai Ying Pun",
-        "nameZH": "西營盤",
+        "id": 111,
+        "code": "AUS",
+        "name": "Austin",
+        "nameZH": "柯士甸",
         "lines": [
-            "ISL"
+            "WRL"
         ]
     },
     {
-        "id": 26,
-        "name": "Sheung Wan",
-        "nameZH": "上環",
+        "id": 56,
+        "code": "AWE",
+        "name": "AsiaWorld-Expo",
+        "nameZH": "博覽館",
+        "lines": [
+            "AEL"
+        ]
+    },
+    {
+        "id": 28,
+        "code": "CAB",
+        "name": "Causeway Bay",
+        "nameZH": "銅鑼灣",
         "lines": [
             "ISL"
         ]
     },
     {
         "id": 1,
+        "code": "CEN",
         "name": "Central",
         "nameZH": "中環",
         "lines": [
@@ -41,225 +57,8 @@
         ]
     },
     {
-        "id": 2,
-        "name": "Admiralty",
-        "nameZH": "金鐘",
-        "lines": [
-            "ISL",
-            "SIL",
-            "TWL"
-        ]
-    },
-    {
-        "id": 27,
-        "name": "Wan Chai",
-        "nameZH": "灣仔",
-        "lines": [
-            "ISL"
-        ]
-    },
-    {
-        "id": 28,
-        "name": "Causeway Bay",
-        "nameZH": "銅鑼灣",
-        "lines": [
-            "ISL"
-        ]
-    },
-    {
-        "id": 29,
-        "name": "Tin Hau",
-        "nameZH": "天后",
-        "lines": [
-            "ISL"
-        ]
-    },
-    {
-        "id": 30,
-        "name": "Fortress Hill",
-        "nameZH": "炮台山",
-        "lines": [
-            "ISL"
-        ]
-    },
-    {
-        "id": 31,
-        "name": "North Point",
-        "nameZH": "北角",
-        "lines": [
-            "ISL",
-            "TKL"
-        ],
-        "code": "NOP"
-    },
-    {
-        "id": 32,
-        "name": "Quarry Bay",
-        "nameZH": "鰂魚涌",
-        "lines": [
-            "ISL",
-            "TKL"
-        ],
-        "code": "QUB"
-    },
-    {
-        "id": 33,
-        "name": "Tai Koo",
-        "nameZH": "太古",
-        "lines": [
-            "ISL"
-        ]
-    },
-    {
-        "id": 34,
-        "name": "Sai Wan Ho",
-        "nameZH": "西灣河",
-        "lines": [
-            "ISL"
-        ]
-    },
-    {
-        "id": 35,
-        "name": "Shau Kei Wan",
-        "nameZH": "筲箕灣",
-        "lines": [
-            "ISL"
-        ]
-    },
-    {
-        "id": 36,
-        "name": "Heng Fa Chuen",
-        "nameZH": "杏花邨",
-        "lines": [
-            "ISL"
-        ]
-    },
-    {
-        "id": 37,
-        "name": "Chai Wan",
-        "nameZH": "柴灣",
-        "lines": [
-            "ISL"
-        ]
-    },
-    {
-        "id": 86,
-        "name": "Ocean Park",
-        "nameZH": "海洋公園",
-        "lines": [
-            "SIL"
-        ]
-    },
-    {
-        "id": 87,
-        "name": "Wong Chuk Hang",
-        "nameZH": "黃竹坑",
-        "lines": [
-            "SIL"
-        ]
-    },
-    {
-        "id": 88,
-        "name": "Lei Tung",
-        "nameZH": "利東",
-        "lines": [
-            "SIL"
-        ]
-    },
-    {
-        "id": 89,
-        "name": "South Horizons",
-        "nameZH": "海怡半島",
-        "lines": [
-            "SIL"
-        ]
-    },
-    {
-        "id": 85,
-        "name": "Whampoa",
-        "nameZH": "黃埔",
-        "lines": [
-            "KTL"
-        ]
-    },
-    {
-        "id": 84,
-        "name": "Ho Man Tin",
-        "nameZH": "何文田",
-        "lines": [
-            "KTL"
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Yau Ma Tei",
-        "nameZH": "油麻地",
-        "lines": [
-            "KTL",
-            "TWL"
-        ]
-    },
-    {
-        "id": 6,
-        "name": "Mong Kok",
-        "nameZH": "旺角",
-        "lines": [
-            "KTL",
-            "TWL"
-        ]
-    },
-    {
-        "id": 16,
-        "name": "Prince Edward",
-        "nameZH": "太子",
-        "lines": [
-            "KTL",
-            "TWL"
-        ]
-    },
-    {
-        "id": 7,
-        "name": "Shek Kip Mei",
-        "nameZH": "石硤尾",
-        "lines": [
-            "KTL"
-        ]
-    },
-    {
-        "id": 8,
-        "name": "Kowloon Tong",
-        "nameZH": "九龍塘",
-        "lines": [
-            "KTL",
-            "EAL"
-        ]
-    },
-    {
-        "id": 9,
-        "name": "Lok Fu",
-        "nameZH": "樂富",
-        "lines": [
-            "KTL"
-        ]
-    },
-    {
-        "id": 10,
-        "name": "Wong Tai Sin",
-        "nameZH": "黃大仙",
-        "lines": [
-            "KTL"
-        ]
-    },
-    {
-        "id": 11,
-        "name": "Diamond Hill",
-        "nameZH": "鑽石山",
-        "lines": [
-            "KTL"
-        ]
-    },
-    {
         "id": 12,
+        "code": "CHH",
         "name": "Choi Hung",
         "nameZH": "彩虹",
         "lines": [
@@ -267,83 +66,35 @@
         ]
     },
     {
-        "id": 13,
-        "name": "Kowloon Bay",
-        "nameZH": "九龍灣",
+        "id": 37,
+        "code": "CHW",
+        "name": "Chai Wan",
+        "nameZH": "柴灣",
         "lines": [
-            "KTL"
+            "ISL"
         ]
     },
     {
-        "id": 14,
-        "name": "Ngau Tau Kok",
-        "nameZH": "牛頭角",
+        "id": 98,
+        "code": "CIO",
+        "name": "City One",
+        "nameZH": "第一城",
         "lines": [
-            "KTL"
+            "MOL"
         ]
     },
     {
-        "id": 15,
-        "name": "Kwun Tong",
-        "nameZH": "觀塘",
+        "id": 96,
+        "code": "CKT",
+        "name": "Che Kung Temple",
+        "nameZH": "車公廟",
         "lines": [
-            "KTL"
-        ]
-    },
-    {
-        "id": 38,
-        "name": "Lam Tin",
-        "nameZH": "藍田",
-        "lines": [
-            "KTL"
-        ]
-    },
-    {
-        "id": 48,
-        "name": "Yau Tong",
-        "nameZH": "油塘",
-        "lines": [
-            "KTL",
-            "TKL"
-        ],
-        "code": "YAT"
-    },
-    {
-        "id": 49,
-        "name": "Tiu Keng Leng",
-        "nameZH": "調景嶺",
-        "lines": [
-            "KTL",
-            "TKL"
-        ],
-        "code": "TIK"
-    },
-    {
-        "id": 3,
-        "name": "Tsim Sha Tsui",
-        "nameZH": "尖沙咀",
-        "lines": [
-            "TWL"
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Jordan",
-        "nameZH": "佐敦",
-        "lines": [
-            "TWL"
-        ]
-    },
-    {
-        "id": 17,
-        "name": "Sham Shui Po",
-        "nameZH": "深水埗",
-        "lines": [
-            "TWL"
+            "MOL"
         ]
     },
     {
         "id": 18,
+        "code": "CSW",
         "name": "Cheung Sha Wan",
         "nameZH": "長沙灣",
         "lines": [
@@ -351,35 +102,203 @@
         ]
     },
     {
-        "id": 19,
-        "name": "Lai Chi Kok",
-        "nameZH": "茘枝角",
+        "id": 11,
+        "code": "DIH",
+        "name": "Diamond Hill",
+        "nameZH": "鑽石山",
+        "lines": [
+            "KTL"
+        ]
+    },
+    {
+        "id": 55,
+        "code": "DIS",
+        "name": "Disneyland Resort",
+        "nameZH": "迪士尼",
+        "lines": [
+            "DRL"
+        ]
+    },
+    {
+        "id": 80,
+        "code": "ETS",
+        "name": "East Tsim Sha Tsui",
+        "nameZH": "尖東",
+        "lines": [
+            "WRL"
+        ]
+    },
+    {
+        "id": 74,
+        "code": "FAN",
+        "name": "Fanling",
+        "nameZH": "粉嶺",
+        "lines": [
+            "EAL"
+        ]
+    },
+    {
+        "id": 30,
+        "code": "FOH",
+        "name": "Fortress Hill",
+        "nameZH": "炮台山",
+        "lines": [
+            "ISL"
+        ]
+    },
+    {
+        "id": 69,
+        "code": "FOT",
+        "name": "Fo Tan",
+        "nameZH": "火炭",
+        "lines": [
+            "EAL"
+        ]
+    },
+    {
+        "id": 51,
+        "code": "HAH",
+        "name": "Hang Hau",
+        "nameZH": "坑口",
+        "lines": [
+            "TKL"
+        ]
+    },
+    {
+        "id": 101,
+        "code": "HEO",
+        "name": "Heng On",
+        "nameZH": "恆安",
+        "lines": [
+            "MOL"
+        ]
+    },
+    {
+        "id": 36,
+        "code": "HFC",
+        "name": "Heng Fa Chuen",
+        "nameZH": "杏花邨",
+        "lines": [
+            "ISL"
+        ]
+    },
+    {
+        "id": 82,
+        "code": "HKU",
+        "name": "HKU",
+        "nameZH": "香港大學",
+        "lines": [
+            "ISL"
+        ]
+    },
+    {
+        "id": 39,
+        "code": "HOK",
+        "name": "Hong Kong",
+        "nameZH": "香港",
+        "lines": [
+            "AEL",
+            "TCL"
+        ]
+    },
+    {
+        "id": 44,
+        "code": "HOK",
+        "name": "Hong Kong",
+        "nameZH": "香港",
+        "lines": [
+            "AEL",
+            "TCL"
+        ]
+    },
+    {
+        "id": 84,
+        "code": "HOM",
+        "name": "Ho Man Tin",
+        "nameZH": "何文田",
+        "lines": [
+            "KTL"
+        ]
+    },
+    {
+        "id": 64,
+        "code": "HUH",
+        "name": "Hung Hom",
+        "nameZH": "紅磡",
+        "lines": [
+            "EAL",
+            "WRL"
+        ]
+    },
+    {
+        "id": 4,
+        "code": "JOR",
+        "name": "Jordan",
+        "nameZH": "佐敦",
         "lines": [
             "TWL"
         ]
     },
     {
-        "id": 20,
-        "name": "Mei Foo",
-        "nameZH": "美孚",
+        "id": 83,
+        "code": "KET",
+        "name": "Kennedy Town",
+        "nameZH": "堅尼地城",
         "lines": [
-            "TWL",
-            "WRL"
-        ],
-        "code": "MEF"
+            "ISL"
+        ]
     },
     {
-        "id": 21,
-        "name": "Lai King",
-        "nameZH": "茘景",
+        "id": 13,
+        "code": "KOB",
+        "name": "Kowloon Bay",
+        "nameZH": "九龍灣",
         "lines": [
-            "TWL",
+            "KTL"
+        ]
+    },
+    {
+        "id": 8,
+        "code": "KOT",
+        "name": "Kowloon Tong",
+        "nameZH": "九龍塘",
+        "lines": [
+            "EAL",
+            "KTL"
+        ]
+    },
+    {
+        "id": 40,
+        "code": "KOW",
+        "name": "Kowloon",
+        "nameZH": "九龍",
+        "lines": [
+            "AEL",
             "TCL"
-        ],
-        "code": "LAK"
+        ]
+    },
+    {
+        "id": 45,
+        "code": "KOW",
+        "name": "Kowloon",
+        "nameZH": "九龍",
+        "lines": [
+            "AEL",
+            "TCL"
+        ]
+    },
+    {
+        "id": 115,
+        "code": "KSR",
+        "name": "Kam Sheung Road",
+        "nameZH": "錦上路",
+        "lines": [
+            "WRL"
+        ]
     },
     {
         "id": 22,
+        "code": "KWF",
         "name": "Kwai Fong",
         "nameZH": "葵芳",
         "lines": [
@@ -388,6 +307,7 @@
     },
     {
         "id": 23,
+        "code": "KWH",
         "name": "Kwai Hing",
         "nameZH": "葵興",
         "lines": [
@@ -395,148 +315,109 @@
         ]
     },
     {
-        "id": 24,
-        "name": "Tai Wo Hau",
-        "nameZH": "大窩口",
+        "id": 15,
+        "code": "KWT",
+        "name": "Kwun Tong",
+        "nameZH": "觀塘",
+        "lines": [
+            "KTL"
+        ]
+    },
+    {
+        "id": 21,
+        "code": "LAK",
+        "name": "Lai King",
+        "nameZH": "荔景",
+        "lines": [
+            "TCL",
+            "TWL"
+        ]
+    },
+    {
+        "id": 38,
+        "code": "LAT",
+        "name": "Lam Tin",
+        "nameZH": "藍田",
+        "lines": [
+            "KTL"
+        ]
+    },
+    {
+        "id": 19,
+        "code": "LCK",
+        "name": "Lai Chi Kok",
+        "nameZH": "荔枝角",
         "lines": [
             "TWL"
         ]
     },
     {
-        "id": 25,
-        "name": "Tsuen Wan",
-        "nameZH": "荃灣",
+        "id": 88,
+        "code": "LET",
+        "name": "Lei Tung",
+        "nameZH": "利東",
         "lines": [
-            "TWL"
+            "SIL"
         ]
-    },
-    {
-        "id": 50,
-        "name": "Tseung Kwan O",
-        "nameZH": "將軍澳",
-        "lines": [
-            "TKL"
-        ],
-        "code": "TKO"
-    },
-    {
-        "id": 51,
-        "name": "Hang Hau",
-        "nameZH": "坑口",
-        "lines": [
-            "TKL"
-        ],
-        "code": "HAH"
-    },
-    {
-        "id": 52,
-        "name": "Po Lam",
-        "nameZH": "寶琳",
-        "lines": [
-            "TKL"
-        ],
-        "code": "POA"
     },
     {
         "id": 57,
+        "code": "LHP",
         "name": "LOHAS Park",
         "nameZH": "康城",
         "lines": [
             "TKL"
-        ],
-        "code": "LHP"
-    },
-    {
-        "id": 39,
-        "name": "Hong Kong",
-        "nameZH": "香港",
-        "lines": [
-            "TCL",
-            "AEL"
-        ],
-        "code": "HOK",
-        "altID": 44
-    },
-    {
-        "id": 40,
-        "name": "Kowloon",
-        "nameZH": "九龍",
-        "lines": [
-            "TCL",
-            "AEL"
-        ],
-        "code": "KOW",
-        "altID": 45
-    },
-    {
-        "id": 41,
-        "name": "Olympic",
-        "nameZH": "奧運",
-        "lines": [
-            "TCL"
-        ],
-        "code": "OLY"
-    },
-    {
-        "id": 53,
-        "name": "Nam Cheong",
-        "nameZH": "南昌",
-        "lines": [
-            "TCL",
-            "WRL"
-        ],
-        "code": "NAC"
-    },
-    {
-        "id": 42,
-        "name": "Tsing Yi",
-        "nameZH": "青衣",
-        "lines": [
-            "TCL",
-            "AEL"
-        ],
-        "code": "TSY",
-        "altID": 46
-    },
-    {
-        "id": 43,
-        "name": "Tung Chung",
-        "nameZH": "東涌",
-        "lines": [
-            "TCL"
-        ],
-        "code": "TUC"
-    },
-    {
-        "id": 54,
-        "name": "Sunny Bay",
-        "nameZH": "欣澳",
-        "lines": [
-            "TCL",
-            "DRL"
-        ],
-        "code": "SUN"
-    },
-    {
-        "id": 55,
-        "name": "Disneyland Resort",
-        "nameZH": "迪士尼",
-        "lines": [
-            "DRL"
         ]
     },
     {
-        "id": 64,
-        "name": "Hung Hom",
-        "nameZH": "紅磡",
+        "id": 78,
+        "code": "LMC",
+        "name": "Lok Ma Chau",
+        "nameZH": "落馬洲",
         "lines": [
-            "EAL",
+            "EAL"
+        ]
+    },
+    {
+        "id": 9,
+        "code": "LOF",
+        "name": "Lok Fu",
+        "nameZH": "樂富",
+        "lines": [
+            "KTL"
+        ]
+    },
+    {
+        "id": 117,
+        "code": "LOP",
+        "name": "Long Ping",
+        "nameZH": "朗屏",
+        "lines": [
             "WRL"
-        ],
-        "code": "HUH"
+        ]
+    },
+    {
+        "id": 76,
+        "code": "LOW",
+        "name": "Lo Wu",
+        "nameZH": "羅湖",
+        "lines": [
+            "EAL"
+        ]
+    },
+    {
+        "id": 20,
+        "code": "MEF",
+        "name": "Mei Foo",
+        "nameZH": "美孚",
+        "lines": [
+            "TWL",
+            "WRL"
+        ]
     },
     {
         "id": 65,
+        "code": "MKK",
         "name": "Mong Kok East",
         "nameZH": "旺角東",
         "lines": [
@@ -544,7 +425,248 @@
         ]
     },
     {
+        "id": 6,
+        "code": "MOK",
+        "name": "Mong Kok",
+        "nameZH": "旺角",
+        "lines": [
+            "KTL",
+            "TWL"
+        ]
+    },
+    {
+        "id": 102,
+        "code": "MOS",
+        "name": "Ma On Shan",
+        "nameZH": "馬鞍山",
+        "lines": [
+            "MOL"
+        ]
+    },
+    {
+        "id": 53,
+        "code": "NAC",
+        "name": "Nam Cheong",
+        "nameZH": "南昌",
+        "lines": [
+            "TCL",
+            "WRL"
+        ]
+    },
+    {
+        "id": 31,
+        "code": "NOP",
+        "name": "North Point",
+        "nameZH": "北角",
+        "lines": [
+            "ISL",
+            "TKL"
+        ]
+    },
+    {
+        "id": 14,
+        "code": "NTK",
+        "name": "Ngau Tau Kok",
+        "nameZH": "牛頭角",
+        "lines": [
+            "KTL"
+        ]
+    },
+    {
+        "id": 86,
+        "code": "OCP",
+        "name": "Ocean Park",
+        "nameZH": "海洋公園",
+        "lines": [
+            "SIL"
+        ]
+    },
+    {
+        "id": 41,
+        "code": "OLY",
+        "name": "Olympic",
+        "nameZH": "奧運",
+        "lines": [
+            "TCL"
+        ]
+    },
+    {
+        "id": 52,
+        "code": "POA",
+        "name": "Po Lam",
+        "nameZH": "寶琳",
+        "lines": [
+            "TKL"
+        ]
+    },
+    {
+        "id": 16,
+        "code": "PRE",
+        "name": "Prince Edward",
+        "nameZH": "太子",
+        "lines": [
+            "KTL",
+            "TWL"
+        ]
+    },
+    {
+        "id": 32,
+        "code": "QUB",
+        "name": "Quarry Bay",
+        "nameZH": "鰂魚涌",
+        "lines": [
+            "ISL",
+            "TKL"
+        ]
+    },
+    {
+        "id": 70,
+        "code": "RAC",
+        "name": "Racecourse",
+        "nameZH": "馬場",
+        "lines": [
+            "EAL"
+        ]
+    },
+    {
+        "id": 99,
+        "code": "SHM",
+        "name": "Shek Mun",
+        "nameZH": "石門",
+        "lines": [
+            "MOL"
+        ]
+    },
+    {
+        "id": 75,
+        "code": "SHS",
+        "name": "Sheung Shui",
+        "nameZH": "上水",
+        "lines": [
+            "EAL"
+        ]
+    },
+    {
+        "id": 68,
+        "code": "SHT",
+        "name": "Sha Tin",
+        "nameZH": "沙田",
+        "lines": [
+            "EAL"
+        ]
+    },
+    {
+        "id": 26,
+        "code": "SHW",
+        "name": "Sheung Wan",
+        "nameZH": "上環",
+        "lines": [
+            "ISL"
+        ]
+    },
+    {
+        "id": 119,
+        "code": "SIH",
+        "name": "Siu Hong",
+        "nameZH": "兆康",
+        "lines": [
+            "WRL"
+        ]
+    },
+    {
+        "id": 7,
+        "code": "SKM",
+        "name": "Shek Kip Mei",
+        "nameZH": "石硤尾",
+        "lines": [
+            "KTL"
+        ]
+    },
+    {
+        "id": 35,
+        "code": "SKW",
+        "name": "Shau Kei Wan",
+        "nameZH": "筲箕灣",
+        "lines": [
+            "ISL"
+        ]
+    },
+    {
+        "id": 89,
+        "code": "SOH",
+        "name": "South Horizons",
+        "nameZH": "海怡半島",
+        "lines": [
+            "SIL"
+        ]
+    },
+    {
+        "id": 17,
+        "code": "SSP",
+        "name": "Sham Shui Po",
+        "nameZH": "深水埗",
+        "lines": [
+            "TWL"
+        ]
+    },
+    {
+        "id": 97,
+        "code": "STW",
+        "name": "Sha Tin Wai",
+        "nameZH": "沙田圍",
+        "lines": [
+            "MOL"
+        ]
+    },
+    {
+        "id": 54,
+        "code": "SUN",
+        "name": "Sunny Bay",
+        "nameZH": "欣澳",
+        "lines": [
+            "DRL",
+            "TCL"
+        ]
+    },
+    {
+        "id": 34,
+        "code": "SWH",
+        "name": "Sai Wan Ho",
+        "nameZH": "西灣河",
+        "lines": [
+            "ISL"
+        ]
+    },
+    {
+        "id": 81,
+        "code": "SYP",
+        "name": "Sai Ying Pun",
+        "nameZH": "西營盤",
+        "lines": [
+            "ISL"
+        ]
+    },
+    {
+        "id": 33,
+        "code": "TAK",
+        "name": "Tai Koo",
+        "nameZH": "太古",
+        "lines": [
+            "ISL"
+        ]
+    },
+    {
+        "id": 72,
+        "code": "TAP",
+        "name": "Tai Po Market",
+        "nameZH": "大埔墟",
+        "lines": [
+            "EAL"
+        ]
+    },
+    {
         "id": 67,
+        "code": "TAW",
         "name": "Tai Wai",
         "nameZH": "大圍",
         "lines": [
@@ -553,119 +675,45 @@
         ]
     },
     {
-        "id": 68,
-        "name": "Sha Tin",
-        "nameZH": "沙田",
+        "id": 29,
+        "code": "TIH",
+        "name": "Tin Hau",
+        "nameZH": "天后",
         "lines": [
-            "EAL"
+            "ISL"
         ]
     },
     {
-        "id": 69,
-        "name": "Fo Tan",
-        "nameZH": "火炭",
+        "id": 49,
+        "code": "TIK",
+        "name": "Tiu Keng Leng",
+        "nameZH": "調景嶺",
         "lines": [
-            "EAL"
+            "KTL",
+            "TKL"
         ]
     },
     {
-        "id": 70,
-        "name": "Racecourse",
-        "nameZH": "馬場",
+        "id": 118,
+        "code": "TIS",
+        "name": "Tin Shui Wai",
+        "nameZH": "天水圍",
         "lines": [
-            "EAL"
+            "WRL"
         ]
     },
     {
-        "id": 71,
-        "name": "University",
-        "nameZH": "大學",
+        "id": 50,
+        "code": "TKO",
+        "name": "Tseung Kwan O",
+        "nameZH": "將軍澳",
         "lines": [
-            "EAL"
-        ]
-    },
-    {
-        "id": 72,
-        "name": "Tai Po Market",
-        "nameZH": "大埔墟",
-        "lines": [
-            "EAL"
-        ]
-    },
-    {
-        "id": 73,
-        "name": "Tai Wo",
-        "nameZH": "太和",
-        "lines": [
-            "EAL"
-        ]
-    },
-    {
-        "id": 74,
-        "name": "Fanling",
-        "nameZH": "粉嶺",
-        "lines": [
-            "EAL"
-        ]
-    },
-    {
-        "id": 75,
-        "name": "Sheung Shui",
-        "nameZH": "上水",
-        "lines": [
-            "EAL"
-        ]
-    },
-    {
-        "id": 78,
-        "name": "Lok Ma Chau",
-        "nameZH": "落馬洲",
-        "lines": [
-            "EAL"
-        ]
-    },
-    {
-        "id": 76,
-        "name": "Lo Wu",
-        "nameZH": "羅湖",
-        "lines": [
-            "EAL"
-        ]
-    },
-    {
-        "id": 96,
-        "name": "Che Kung Temple",
-        "nameZH": "車公廟",
-        "lines": [
-            "MOL"
-        ]
-    },
-    {
-        "id": 97,
-        "name": "Sha Tin Wai",
-        "nameZH": "沙田圍",
-        "lines": [
-            "MOL"
-        ]
-    },
-    {
-        "id": 98,
-        "name": "City One",
-        "nameZH": "第一城",
-        "lines": [
-            "MOL"
-        ]
-    },
-    {
-        "id": 99,
-        "name": "Shek Mun",
-        "nameZH": "石門",
-        "lines": [
-            "MOL"
+            "TKL"
         ]
     },
     {
         "id": 100,
+        "code": "TSH",
         "name": "Tai Shui Hang",
         "nameZH": "大水坑",
         "lines": [
@@ -673,23 +721,136 @@
         ]
     },
     {
-        "id": 101,
-        "name": "Heng On",
-        "nameZH": "恆安",
+        "id": 3,
+        "code": "TST",
+        "name": "Tsim Sha Tsui",
+        "nameZH": "尖沙咀",
         "lines": [
-            "MOL"
+            "TWL"
         ]
     },
     {
-        "id": 102,
-        "name": "Ma On Shan",
-        "nameZH": "馬鞍山",
+        "id": 25,
+        "code": "TSW",
+        "name": "Tsuen Wan",
+        "nameZH": "荃灣",
         "lines": [
-            "MOL"
+            "TWL"
+        ]
+    },
+    {
+        "id": 46,
+        "code": "TSY",
+        "name": "Tsing Yi",
+        "nameZH": "青衣",
+        "lines": [
+            "AEL",
+            "TCL"
+        ]
+    },
+    {
+        "id": 42,
+        "code": "TSY",
+        "name": "Tsing Yi",
+        "nameZH": "青衣",
+        "lines": [
+            "AEL",
+            "TCL"
+        ]
+    },
+    {
+        "id": 43,
+        "code": "TUC",
+        "name": "Tung Chung",
+        "nameZH": "東涌",
+        "lines": [
+            "TCL"
+        ]
+    },
+    {
+        "id": 120,
+        "code": "TUM",
+        "name": "Tuen Mun",
+        "nameZH": "屯門",
+        "lines": [
+            "WRL"
+        ]
+    },
+    {
+        "id": 24,
+        "code": "TWH",
+        "name": "Tai Wo Hau",
+        "nameZH": "大窩口",
+        "lines": [
+            "TWL"
+        ]
+    },
+    {
+        "id": 73,
+        "code": "TWO",
+        "name": "Tai Wo",
+        "nameZH": "太和",
+        "lines": [
+            "EAL"
+        ]
+    },
+    {
+        "id": 114,
+        "code": "TWW",
+        "name": "Tsuen Wan West",
+        "nameZH": "荃灣西",
+        "lines": [
+            "WRL"
+        ]
+    },
+    {
+        "id": 71,
+        "code": "UNI",
+        "name": "University",
+        "nameZH": "大學",
+        "lines": [
+            "EAL"
+        ]
+    },
+    {
+        "id": 27,
+        "code": "WAC",
+        "name": "Wan Chai",
+        "nameZH": "灣仔",
+        "lines": [
+            "ISL"
+        ]
+    },
+    {
+        "id": 87,
+        "code": "WCH",
+        "name": "Wong Chuk Hang",
+        "nameZH": "黃竹坑",
+        "lines": [
+            "SIL"
+        ]
+    },
+    {
+        "id": 888,
+        "code": "WEK",
+        "name": "Hong Kong West Kowloon",
+        "nameZH": "香港西九龍",
+        "lines": [
+            "HSR"
+        ]
+    },
+    {
+        "id": 85,
+        "code": "WHA",
+        "name": "Whampoa",
+        "nameZH": "黃埔",
+        "lines": [
+            "KTL"
         ]
     },
     {
         "id": 103,
+        "code": "WKS",
         "name": "Wu Kai Sha",
         "nameZH": "烏溪沙",
         "lines": [
@@ -697,102 +858,41 @@
         ]
     },
     {
-        "id": 80,
-        "name": "East Tsim Sha Tsui",
-        "nameZH": "尖東",
+        "id": 10,
+        "code": "WTS",
+        "name": "Wong Tai Sin",
+        "nameZH": "黃大仙",
         "lines": [
-            "WRL"
-        ],
-        "code": "ETS"
+            "KTL"
+        ]
     },
     {
-        "id": 111,
-        "name": "Austin",
-        "nameZH": "柯士甸",
+        "id": 48,
+        "code": "YAT",
+        "name": "Yau Tong",
+        "nameZH": "油塘",
         "lines": [
-            "WRL"
-        ],
-        "code": "AUS"
+            "KTL",
+            "TKL"
+        ]
     },
     {
-        "id": 114,
-        "name": "Tsuen Wan West",
-        "nameZH": "荃灣西",
+        "id": 5,
+        "code": "YMT",
+        "name": "Yau Ma Tei",
+        "nameZH": "油麻地",
         "lines": [
-            "WRL"
-        ],
-        "code": "TWW"
-    },
-    {
-        "id": 115,
-        "name": "Kam Sheung Road",
-        "nameZH": "錦上路",
-        "lines": [
-            "WRL"
-        ],
-        "code": "KSR"
+            "KTL",
+            "TWL"
+        ]
     },
     {
         "id": 116,
+        "code": "YUL",
         "name": "Yuen Long",
         "nameZH": "元朗",
         "lines": [
             "WRL"
-        ],
-        "code": "YUL"
-    },
-    {
-        "id": 117,
-        "name": "Long Ping",
-        "nameZH": "朗屏",
-        "lines": [
-            "WRL"
-        ],
-        "code": "LOP"
-    },
-    {
-        "id": 118,
-        "name": "Tin Shui Wai",
-        "nameZH": "天水圍",
-        "lines": [
-            "WRL"
-        ],
-        "code": "TIS"
-    },
-    {
-        "id": 119,
-        "name": "Siu Hong",
-        "nameZH": "兆康",
-        "lines": [
-            "WRL"
-        ],
-        "code": "SIH"
-    },
-    {
-        "id": 120,
-        "name": "Tuen Mun",
-        "nameZH": "屯門",
-        "lines": [
-            "WRL"
-        ],
-        "code": "TUM"
-    },
-    {
-        "id": 47,
-        "name": "Airport",
-        "nameZH": "機場",
-        "lines": [
-            "AEL"
-        ],
-        "code": "AIR"
-    },
-    {
-        "id": 56,
-        "name": "Asia World-Expo",
-        "nameZH": "博覽館",
-        "lines": [
-            "AEL"
-        ],
-        "code": "AWE"
+        ]
     }
 ]

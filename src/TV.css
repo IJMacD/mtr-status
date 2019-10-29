@@ -1,14 +1,43 @@
 .TV-screen {
-    height: 300px;
     width: 400px;
     padding: 50px;
     background: #333;
     border: 5px solid #111;
-    overflow-y: auto;
     margin: 1em;
 }
 
 .TV-screen ul {
-    background: white;
-    min-height: 300px;
+    border: 5px solid #111;
+    background: #111;
+    color: white;
+    height: 300px;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.6em;
+}
+
+.TV-screen li {
+    display: flex;
+}
+
+.TV-direction-down {
+    color: #CC0;
+}
+
+.TV-destination {
+    display: inline-block;
+    width: 45%;
+}
+
+.TV-platform {
+    display: inline-block;
+    width: 35%;
+}
+
+.TV-time {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
 }
